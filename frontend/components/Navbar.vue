@@ -1,13 +1,12 @@
 <template> 
     <div>
         <div class="bg-black text-white justify-around text-3xl fixed w-screen py-5 hidden md:flex">
+            <p class="text-green-500">LuckyBook</p>
             <ul class="flex space-x-20">
-                <a href="#"><li>Home</li></a> 
                 <a href="#"><li>Mint</li></a> 
                 <a href="#"><li>Roadmap</li></a> 
                 <a href="#"><li>Rarity</li></a> 
             </ul>
-            <p>Bookz</p>
         </div>
         <div class="md:hidden">
             <div class="text-2xl bg-black text-white flex justify-around fixed w-screen py-5">
