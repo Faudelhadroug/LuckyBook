@@ -4,6 +4,7 @@
         <HomeWhatIs />
         <HomeMint />
         <HomeRoadmap />
+        <HomeRarity />
     </div>
 </template>
 
