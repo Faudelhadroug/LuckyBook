@@ -5,6 +5,7 @@
         <HomeMint />
         <HomeRoadmap />
         <HomeRarity />
+        <HomeFAQ />
     </div>
 </template>
 
