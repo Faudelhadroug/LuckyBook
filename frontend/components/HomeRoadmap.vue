@@ -1,7 +1,7 @@
 <template>
     <div class="bg-primary text-neutral py-20 lg:py-32">
-        <h3 class="text-center text-3xl lg:text-6xl mb-10">Roadmap</h3>
-        <div class="text-center lg:text-3xl mb-20 mx-10 md:px-32 xl:px-60 2xl:px-72">
+        <h3 class="text-center text-3xl lg:text-5xl mb-10">Roadmap</h3>
+        <div class="text-center lg:text-2xl mb-20 mx-10 md:px-32 xl:px-60 2xl:px-72">
             <p class="mb-10">Voici la ligne directionnel de notre projet cette roadmap évoluera avec le temps afin d'y introduire les meilleurs suggestions de nos LuckyBook owner et de tenir à jour nos objectifs.</p>
             <p>Nous tenons à crée un projet sur le long termes tout en récompensant les owners et les personnes qui font vivre notre communauté Making an utility to own LuckyBook.</p>
         </div>
