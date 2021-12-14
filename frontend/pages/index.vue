@@ -1,18 +1,17 @@
 <template>
     <div>
-        <Home />
+        <Home id="home" />
         <HomeWhatIs />
-        <HomeMint />
-        <HomeRoadmap />
+        <HomeMint id="mint" />
+        <HomeRoadmap id="roadmap" />
         <HomeRarity />
-        <HomeFAQ />
+        <HomeFAQ id="FAQ" />
     </div>
 </template>
 
 <script>
 export default {
     setup () {
-        
 
         return {}
     }
