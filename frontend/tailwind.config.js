@@ -13,6 +13,7 @@ module.exports = {
         'primary': '#0E0E1D',
         'secondary': '#32B734',
         'neutral' : '#EEEEEC',
+        'danger' : '#D27364',
         'twitter' : '#199af0',
         'discord' : '#5865F2',
       },

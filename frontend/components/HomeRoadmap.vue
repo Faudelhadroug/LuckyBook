@@ -22,7 +22,7 @@
                 <p class="text-center mb-10 mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>2222/8888 - 25%</u> <br> - Lancement du discord: Pour réunir notre communauté et pouvoir intéragir avec elle.</p>
                 <p class="text-center mb-10 mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>4444/8888 - 50%</u> <br> - Airdrop: For some luckyest early holders 
                 </p>
-                <p class="text-center mb-10 mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>6666/8888 - 75%</u> <br> - Rarity reveal: Vous avez accès à la page de rareté pour estimé sa valeur
+                <p class="text-center mb-10 mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>6666/8888 - 75%</u> <br> - Rarity reveal: Vous avez accès à la page de rareté pour estimé la valeur de votre LuckyBook
                 </p>
                 <p class="text-center mb-10 mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>8888/8888 - 100%</u> <br>- NFT viewer: Une nouvelle page s'ajoute aux site afin de visualisé les LuckyBook
                 </p>
@@ -56,18 +56,7 @@
             <div class="bg-neutral text-primary rounded" :class="[visiblePage === 5 ? 'block' : 'hidden']">
                 <h4 class="text-xl text-center mb-10 pt-6 underline md:text-2xl lg:text-4xl">Chapitre IV - More to come</h4>
                 <p class="text-center mb-10 mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Collaborations and sponsors for huge advantage to holders</p>
-                <p class="text-center mb-10 mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- New version site for LuckyBook</p>
-                <p class="text-center mb-10 mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Exclusive access.</p>
-                <div class="flex justify-center space-x-4 pb-5 md:text-lg lg:text-xl xl:text-2xl">
-                    <p @click="prevPage(visiblePage)" class="cursor-pointer">&lt;--</p>
-                    <p>{{visiblePage}}/{{nbrPages}}</p>
-                    <p @click="nextPage(visiblePage)" class="cursor-pointer">--&gt;</p>
-                </div>
-            </div>
-            <div class="bg-neutral text-primary rounded" :class="[visiblePage === 6 ? 'block' : 'hidden']">
-                <h4 class="text-xl text-center mb-10 pt-6 underline md:text-2xl lg:text-4xl">Chapitre V</h4>
-                <p class="text-center mb-10 mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">L'objectif principales est d'aider au developpement d'un projet de publication de Livre/Manga d'un de nos holders avec un système de vote communautaire pour le choix de celui et des Royalties pour tout les holders</p>
-                <p class="text-center mb-10 mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">Une partie de l'argent récolté avec la vente des NFT servira à financer ce projet et son marketing</p>
+                <p class="text-center mb-10 mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- New website version for LuckyBook with more details about our goals</p>
                 <div class="flex justify-center space-x-4 pb-5 md:text-lg lg:text-xl xl:text-2xl">
                     <p @click="prevPage(visiblePage)" class="cursor-pointer">&lt;--</p>
                     <p>{{visiblePage}}/{{nbrPages}}</p>
