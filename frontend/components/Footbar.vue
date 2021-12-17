@@ -4,9 +4,8 @@
         <a href="https://twitter.com/luckybooknft" target="_blank">
             <p>Twitter</p>
         </a>
-        <a href="" target="_blank">
-            <p>Discord</p>
-        </a>
+        <p class="cursor-not-allowed">Discord</p>
+
     </div>
 </template>
 
