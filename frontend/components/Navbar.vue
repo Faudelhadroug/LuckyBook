@@ -20,10 +20,10 @@
         <img @click="visibleMobileMenu = false, animation('closeMenu')" class="absolute left-3/4 mt-10 w-10" src="../assets/images/crossIcon.svg" alt="Cross close menu Icon">
         <div class="flex h-screen">
             <ul class="text-4xl text-center m-auto space-y-4 text-white">
-                <NuxtLink @click="visibleMobileMenu = false" :to="{ path: '/', hash: '#mint'}"><li class="mb-10">Mint</li></NuxtLink>
-                <NuxtLink @click="visibleMobileMenu = false" :to="{ path: '/', hash: '#roadmap'}"><li class="mb-10">Roadmap</li></NuxtLink>
+                <NuxtLink @click="visibleMobileMenu = false, animation('closeMenu')" :to="{ path: '/', hash: '#mint'}"><li class="mb-10">Mint</li></NuxtLink>
+                <NuxtLink @click="visibleMobileMenu = false, animation('closeMenu')" :to="{ path: '/', hash: '#roadmap'}"><li class="mb-10">Roadmap</li></NuxtLink>
                 <!-- <NuxtLink @click="visibleMobileMenu = false" to="rarity"><li class="mb-10">Rarity</li></NuxtLink> -->
-                <NuxtLink @click="visibleMobileMenu = false" :to="{ path: '/', hash: '#FAQ'}"><li>FAQ</li></NuxtLink> 
+                <NuxtLink @click="visibleMobileMenu = false, animation('closeMenu')" :to="{ path: '/', hash: '#FAQ'}"><li>FAQ</li></NuxtLink> 
             </ul>
         </div>
     </div>
@@ -59,7 +59,7 @@ export default {
             switch (payload) {
                 case 'openMenu':
                     let tl = gsap.timeline();
-                    gsap.fromTo("#mobileMenuIcon", { y: '0vh' }, {duration: 0.5, y: '-10vh' })
+                    gsap.fromTo("#mobileMenuIcon", { y: '0vh' }, {duration: 1, y: '-10vh' })
                     gsap.fromTo("#mobileMenu", { x: '-100vh'}, {x: '0vh'})
                     break;
                 case 'closeMenu':
