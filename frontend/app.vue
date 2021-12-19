@@ -8,4 +8,3 @@
   import './assets/tailwind.css'
   
 </script>
-
