@@ -8,15 +8,15 @@
             </div>
             <div @click="() => visibleElem == 2? visibleElem = 0 : visibleElem = 2"  class="mx-6 md:mx-20 xl:mx-40">
                 <p class="mb-4 font-bold inline-block">How to buy LuckyBook?</p><img class="w-5 ml-1 md:ml-2 inline-block" :src="visibleElem == 2 ? '../assets/images/dropUp.svg' : '../assets/images/dropDown.svg'" :alt="visibleElem == 2 ? 'dropUp Icon' : 'DropDown Icon'">
-                <p :class="visibleElem == 2 ? 'block' : 'hidden'">To purchase LuckyBook you will need the <a class="underline" href="https://hathor.network/get-started/" target="_blank">Hathor wallet</a>  with the corresponding amount of $HTR. <span class="text-danger">Becarefull you cannot buy NFT from an exchange like Kucoin, Ascendex...</span> Use them to transfer funds on the Hathor wallet.</p>
+                <p :class="visibleElem == 2 ? 'block' : 'hidden'">To purchase LuckyBook you will need the <a class="underline" href="https://hathor.network/get-started/" target="_blank" rel="noopener">Hathor wallet</a>  with the corresponding amount of $HTR. <span class="text-danger">Becarefull you cannot buy NFT from an exchange like Kucoin, Ascendex...</span> Use them to transfer funds on the Hathor wallet.</p>
             </div>
             <div @click="() => visibleElem == 3? visibleElem = 0 : visibleElem = 3"  class="mx-6 md:mx-20 xl:mx-40">
                 <p class="mb-4 font-bold inline-block">Where to get a Hathor wallet?</p><img class="w-5 ml-1 md:ml-2 inline-block" :src="visibleElem == 3 ? '../assets/images/dropUp.svg' : '../assets/images/dropDown.svg'" :alt="visibleElem == 3 ? 'dropUp Icon' : 'DropDown Icon'">
-                <p :class="visibleElem == 3 ? 'block' : 'hidden'">You can click <a class="underline" href="https://hathor.network/get-started/" target="_blank">here</a> or google Hathor Wallet which is available on Hathor.network !</p>
+                <p :class="visibleElem == 3 ? 'block' : 'hidden'"><a class="underline" href="https://hathor.network/get-started/" target="_blank" rel="noopener">Hathor Wallet</a> or google "Hathor Wallet" which is available on Hathor.network !</p>
             </div>
             <div @click="() => visibleElem == 4? visibleElem = 0 : visibleElem = 4"  class="mx-6 md:mx-20 xl:mx-40">
                 <p class="mb-4 font-bold inline-block">How to transfer funds to the Hathor wallet?</p><img class="w-5 ml-1 md:ml-2 inline-block" :src="visibleElem == 4 ? '../assets/images/dropUp.svg' : '../assets/images/dropDown.svg'" :alt="visibleElem == 4 ? 'dropUp Icon' : 'DropDown Icon'">
-                <p :class="visibleElem == 4 ? 'block' : 'hidden'">You need to have $HTR on your exchange (you can click <a class="underline" href="https://www.coingecko.com/fr/pi%C3%A8ces/hathor?__cf_chl_jschl_tk__=Jnl0Ft1XUdJ9yJLaidFEdQnO97TwGBtf8PpObRyeaSg-1639649650-0-gaNycGzNCL0#markets" target="_blank">here</a> to see all exchanges where you can buy $HTR) and use the withdraw function to your address of your Hathor wallet.</p>
+                <p :class="visibleElem == 4 ? 'block' : 'hidden'">You need to have $HTR on your exchange (<a class="underline" href="https://www.coingecko.com/fr/pi%C3%A8ces/hathor?__cf_chl_jschl_tk__=Jnl0Ft1XUdJ9yJLaidFEdQnO97TwGBtf8PpObRyeaSg-1639649650-0-gaNycGzNCL0#markets" target="_blank" rel="noopener">all exchanges</a> where you can buy $HTR ) and use the withdraw function to your address of your Hathor wallet.</p>
             </div>
             <div @click="() => visibleElem == 5? visibleElem = 0 : visibleElem = 5"  class="mx-6 md:mx-20 xl:mx-40">
                 <p class="mb-4 font-bold inline-block">How long does it take for the LuckyBook to show up on my Hathor wallet?</p><img class="w-5 ml-1 md:ml-2 inline-block" :src="visibleElem == 5 ? '../assets/images/dropUp.svg' : '../assets/images/dropDown.svg'" :alt="visibleElem == 5 ? 'dropUp Icon' : 'DropDown Icon'">
@@ -24,7 +24,7 @@
             </div>
             <div class="pt-10 mx-10 md:mx-20 xl:mx-40">
                 <p class="mb-4 font-bold inline-block">Need more help?</p>
-                <p>You can currenctly contact us on <a class="underline" href="https://twitter.com/luckybooknft" target="_blank">Twitter</a> and Discord soon!</p>
+                <p>You can currenctly contact us on <a class="underline" href="https://twitter.com/luckybooknft" target="_blank" rel="noopener">Twitter</a> and Discord soon!</p>
             </div>
         </div>
     </div>
