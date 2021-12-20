@@ -1,6 +1,6 @@
 <template>
     <div class="grid grid-cols-1 md:grid-cols-2 bg-neutral py-20 lg:py-32">
-        <img class="mx-auto w-4/5" src="../assets/images/logoBookBlack.png" alt="Logo LuckyBook">
+        <img class="mx-auto w-4/5" src="~/assets/images/logoBookBlack.png" alt="Logo LuckyBook">
         <div class="text-center m-auto text-primary">
             <p class="text-3xl lg:text-6xl lg:mb-4">{{ bookBought }}/8888</p>
             <h2 class="mb-4 text-2xl lg:text-5xl lg:mb-14"><span class="text-secondary-contrast">LuckyBook</span> remaining</h2>

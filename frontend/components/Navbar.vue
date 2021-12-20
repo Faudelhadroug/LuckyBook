@@ -14,10 +14,10 @@
     <NuxtLink :to="{ path: '/', hash: '#home'}">
         <p class="text-green-500">LuckyBook</p>
     </NuxtLink>
-        <img @click="visibleMobileMenu ? null : visibleMobileMenu = true, animation('openMenu')" id="mobileMenuIcon" class="w-10" src="../assets/images/menuMobileIcon.svg" alt="Drop menu icon">
+        <img @click="visibleMobileMenu ? null : visibleMobileMenu = true, animation('openMenu')" id="mobileMenuIcon" class="w-10" src="~/assets/images/menuMobileIcon.svg" alt="Drop menu icon">
     </div>
     <div id="mobileMenu" class="bg-primary fixed w-full h-full overflow-hidden z-30" :class="visibleMobileMenu ? 'block' : 'hidden'">
-        <img @click="visibleMobileMenu = false, animation('closeMenu')" class="absolute left-3/4 mt-10 w-10" src="../assets/images/crossIcon.svg" alt="Cross close menu Icon">
+        <img @click="visibleMobileMenu = false, animation('closeMenu')" class="absolute left-3/4 mt-10 w-10" src="~/assets/images/crossIcon.svg" alt="Cross close menu Icon">
         <div class="flex h-screen">
             <ul class="text-4xl text-center m-auto space-y-4 text-white">
                 <NuxtLink @click="visibleMobileMenu = false, animation('closeMenu')" :to="{ path: '/', hash: '#mint'}"><li class="mb-10">Mint</li></NuxtLink>

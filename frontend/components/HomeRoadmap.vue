@@ -52,9 +52,9 @@
                     </div>
                 </div>
                 <div class="flex justify-center space-x-4 pb-5 md:text-lg lg:text-xl xl:text-2xl page-footer">
-                    <img @click="prevPage(visiblePage)" class="w-6 md:w-7 xl:md-10 cursor-pointer" src="../assets/images/back-arrow.svg" alt="go to prev page icon"/>
+                    <img @click="prevPage(visiblePage)" class="w-6 md:w-7 xl:md-10 cursor-pointer" src="~/assets/images/back-arrow.svg" alt="go to prev page icon"/>
                     <p class="text-lg xl:text-2xl mt-1 px-2">{{visiblePage}}/{{nbrPages}}</p>
-                    <img @click="nextPage(visiblePage)" class="w-6 md:w-7 xl:md-10 cursor-pointer" src="../assets/images/front-arrow.svg" alt="go to next page icon"/>
+                    <img @click="nextPage(visiblePage)" class="w-6 md:w-7 xl:md-10 cursor-pointer" src="~/assets/images/front-arrow.svg" alt="go to next page icon"/>
                 </div>
             </div>
         </div>

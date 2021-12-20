@@ -5,7 +5,7 @@
             <p class="mx-10 lg:mx-20 mb-10">Each LuckyBook has a <span class="text-secondary-contrast">chance</span> to get <span class="text-secondary-contrast">unique</span> items to increase its value, more info about <span class="text-secondary-contrast">rarity</span> will be unlocked when 6666 LuckyBook are minted</p>
             <button type="button" disabled class="bg-secondary-contrast text-neutral py-4 px-14 lg:py-5 lg:px-14 rounded-full cursor-not-allowed opacity-50">Rarity informations</button>
         </div>
-        <img class="w-4/5 mx-auto" src="../assets/images/clover.png" alt="Clover with 4 leafs for more luck !">
+        <img class="w-4/5 mx-auto" src="~/assets/images/clover.png" alt="Clover with 4 leafs for more luck !">
     </div>
 </template>
 
