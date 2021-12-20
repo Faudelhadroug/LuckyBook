@@ -13,7 +13,15 @@
                     <div class="space-y-10 lg:space-y-20">
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">Our project is composed of several chapters that will evolve independently.</p>
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">We want to build a caring community with which to advance and establish our future.</p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><span @click="visiblePage = 2" class="underline cursor-pointer">Chapitre I - The Mint period (2/5)</span><br><span @click="visiblePage = 3" class="underline cursor-pointer">Chapitre II - Reading plateform(3/5)</span><br><span @click="visiblePage = 4" class="underline cursor-pointer">Chapitre III  - Finance aspect (4/5)</span><br><span @click="visiblePage = 5" class="underline cursor-pointer">Chapitre IV - More to come (5/5) </span></p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">
+                            <span @click="visiblePage = 2, animation()" class="underline cursor-pointer">Chapitre I - The Mint period (2/5)</span>
+                            <br>
+                            <span @click="visiblePage = 3, animation()" class="underline cursor-pointer">Chapitre II - Reading plateform(3/5)</span>
+                            <br>
+                            <span @click="visiblePage = 4, animation()" class="underline cursor-pointer">Chapitre III  - Finance aspect (4/5)</span>
+                            <br>
+                            <span @click="visiblePage = 5, animation()" class="underline cursor-pointer">Chapitre IV - More to come (5/5) </span>
+                        </p>
                     </div>
                 </div>
                 <h4 :class="[visiblePage === 2 ? 'block' : 'hidden']" class="text-xl text-center pt-10 lg:pt-20 font-bold md:text-2xl lg:text-4xl page-title-2">Chapitre I - The Mint period</h4>
@@ -94,6 +102,10 @@ export default {
             tl.fromTo(`.page-title-${actualPage}`, { x: '0', position: 'absolute'}, { x: '400', opacity: 0, position: 'absolute'})
             .fromTo(`.page-title-${this.visiblePage}`, { x: '-400', opacity: 0, position: 'static'}, { x: '0', opacity: 100})
         },
+        animation(){
+            let tl = gsap.timeline();
+            tl.fromTo(`.page-title-${this.visiblePage}`, { y: '-400', x: '0', opacity: 0, position: 'static'}, { y: '0', x: '0', opacity: 100})
+        }
     },
 }
 </script>
