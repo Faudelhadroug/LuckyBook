@@ -23,6 +23,9 @@ export default {
             name: 'description',
             content: 'LuckyBook is a collection of 8888 generative unique NFT art collectibles with rarity traits only available on the Hathor blockchain'
           }
+        ],
+        link: [
+          { rel: 'icon', type: 'image/png', href: '/favicon.png' }
         ]
       }
     },

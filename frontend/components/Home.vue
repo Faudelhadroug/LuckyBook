@@ -10,8 +10,8 @@
             <button type="button" class="bg-discord text-neutral cursor-not-allowed text-sm rounded-full h-16 w-16 lg:h-20 lg:w-20 flex items-center justify-center absolute ml-12 lg:ml-16 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"> <img class="w-8 lg:w-10" src="../assets/images/discordIconWhite.svg" alt="Discord icon white">
             </button>
             </div>
-            <img class="hidden md:block" src="../assets/images/bookHomeTest.svg" alt="Lucky book home page desktop">
-            <img class="md:hidden" src="../assets/images/bookHome.svg" alt="Lucky book home page mobile">
+            <img class="hidden md:block" src="../assets/images/bookHomeDesktop.svg" alt="Lucky book home page desktop">
+            <img class="md:hidden" src="../assets/images/bookHomeMobile.svg" alt="Lucky book home page mobile">
         </div>
     </div>
 </template>
