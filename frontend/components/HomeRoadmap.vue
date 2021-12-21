@@ -27,13 +27,10 @@
                 <h4 :class="[visiblePage === 2 ? 'block' : 'hidden']" class="text-xl text-center pt-10 lg:pt-20 font-bold md:text-2xl lg:text-4xl page-title-2">Chapitre I - The Mint period</h4>
                 <div class="flex-grow flex flex-col justify-center items-center page-content-2" :class="[visiblePage === 2 ? 'block fade-in' : 'hidden']">
                     <div class="m-auto space-y-4 lg:space-y-10">
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>2222/8888 - 25%</u> <br> - Launch of a discord: To gather our community and interact with it.</p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>4444/8888 - 50%</u> <br> - Airdrop: For some lucky early holders.
-                        </p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>6666/8888 - 75%</u> <br> - Rarity reveal: You will have access to the rarity page to estimate the value of your LuckyBook.
-                        </p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>8888/8888 - 100%</u> <br>- NFT viewer: A new page will be added to the site to view the LuckyBook.
-                        </p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>2222/8888 - 25%</u> <br> - Launch of a discord: To gather our community and interact with it</p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>4444/8888 - 50%</u> <br> - Airdrop: For some lucky early holders</p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>6666/8888 - 75%</u> <br> - Rarity reveal: You will have access to the rarity page to estimate the value of your LuckyBook</p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>8888/8888 - 100%</u> <br>- NFT viewer: A new page will be added to the site to view the LuckyBook</p>
                     </div>
                 </div>
                 <h4 :class="[visiblePage === 3 ? 'block' : 'hidden']" class="text-xl text-center pt-10 lg:pt-20 font-bold md:text-2xl lg:text-4xl page-title-3">Chapitre II - Reading plateform</h4>
