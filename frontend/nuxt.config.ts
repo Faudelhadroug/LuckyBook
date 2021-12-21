@@ -1,4 +1,5 @@
 import { defineNuxtConfig } from 'nuxt3'
+import redirectSSL from 'redirect-ssl'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
@@ -13,5 +14,11 @@ export default defineNuxtConfig({
       },
     },
   },
-  serverMiddleware: ["redirect-ssl"],
+  serverMiddleware: [
+    {
+      handler: redirectSSL.create({
+        enabled: process.env.NODE_ENV === 'production'
+      }),
+    }
+  ],
 })
