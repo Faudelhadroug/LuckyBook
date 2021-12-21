@@ -12,7 +12,6 @@
     "tailwindcss": "^2.2.19"
   },
   "dependencies": {
-    "gsap": "^3.9.0",
-    "redirect-ssl": "^3.0.0"
+    "gsap": "^3.9.0"
   }
 }
