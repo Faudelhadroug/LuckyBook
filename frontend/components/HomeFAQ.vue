@@ -34,7 +34,7 @@
 export default {
     setup () {
         const state = reactive({
-            visibleElem: 5,
+            visibleElem: 0,
             nbrElems: 6,
         })
     
