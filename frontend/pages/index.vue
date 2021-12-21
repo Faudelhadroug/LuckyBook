@@ -26,7 +26,6 @@ export default {
         ],
         link: [
           { rel: 'icon', type: 'image/png', href: '/favicon.png' },
-          { rel: 'shortcut icon', href: '#'},
         ]
       }
     },
