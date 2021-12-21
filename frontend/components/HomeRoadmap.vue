@@ -28,11 +28,11 @@
                 <div class="flex-grow flex flex-col justify-center items-center page-content-2" :class="[visiblePage === 2 ? 'block fade-in' : 'hidden']">
                     <div class="m-auto space-y-4 lg:space-y-10">
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>2222/8888 - 25%</u> <br> - Launch of a discord: To gather our community and interact with it.</p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>4444/8888 - 50%</u> <br> - Airdrop: For some lucky early holders
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>4444/8888 - 50%</u> <br> - Airdrop: For some lucky early holders.
                         </p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>6666/8888 - 75%</u> <br> - Rarity reveal: You will have access to the rarity page to estimate the value of your LuckyBook
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>6666/8888 - 75%</u> <br> - Rarity reveal: You will have access to the rarity page to estimate the value of your LuckyBook.
                         </p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>8888/8888 - 100%</u> <br>- NFT viewer: A new page will be added to the site to view the LuckyBook
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48"><u>8888/8888 - 100%</u> <br>- NFT viewer: A new page will be added to the site to view the LuckyBook.
                         </p>
                     </div>
                 </div>
@@ -41,23 +41,23 @@
                     <div class="m-auto space-y-10 lg:space-y-20">
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Creation of a reading platform with a cryptocurrency payment system, DAO to help the development and financing of work.</p>
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- LuckyBook holders will have free access and multiple benefits to the platform.</p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- More details coming with LuckyBook's future website update</p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- More details coming with LuckyBook's future website update.</p>
                     </div>
                 </div>
                 <h4 :class="[visiblePage === 4 ? 'block' : 'hidden']" class="text-xl text-center pt-10 lg:pt-20 font-bold md:text-2xl lg:text-4xl page-title-4">Chapitre III - Financial aspect</h4>
                 <div class="flex-grow flex flex-col justify-center items-center page-content-4" :class="[visiblePage === 4 ? 'block fade-in' : 'hidden']">
                     <div class="m-auto space-y-10 lg:space-y-20">
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Private group on discord with special advantages and unique articles for investors interested in promising projects.</p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Recruitment of professional traders for our discord</p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Recruitment for the implementation of a DeFi project</p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Recruitment of professional traders for our discord.</p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Recruitment for the implementation of a DeFi project.</p>
                     </div>
                 </div>
                 <h4 :class="[visiblePage === 5 ? 'block' : 'hidden']" class="text-xl text-center pt-10 lg:pt-20 font-bold md:text-2xl lg:text-4xl page-title-5">Chapitre IV - More to come</h4>
                 <div class="flex-grow flex flex-col justify-center items-center page-content-5" :class="[visiblePage === 5 ? 'block fade-in' : 'hidden']">
                     <div class="m-auto space-y-10 lg:space-y-20">
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Regulary airdrop</p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- New website version for LuckyBook with more details about our goals</p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Collaborations and sponsors for huge benefits to holders</p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Regulary airdrop.</p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- New website version for LuckyBook with more details about our goals.</p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Collaborations and sponsors for huge benefits to holders !</p>
                     </div>
                 </div>
                 <div class="flex justify-center space-x-4 pb-5 md:text-lg lg:text-xl xl:text-2xl page-footer">
