@@ -4,7 +4,7 @@
         <HomeWhatIs />
         <HomeMint id="mint" />
         <HomeRoadmap id="roadmap" />
-        <HomeRarity />
+        <HomeRarity id="rarity" />
         <HomeFAQ id="FAQ" />
     </div>
 </template>

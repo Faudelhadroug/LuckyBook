@@ -15,6 +15,7 @@ module.exports = {
         'secondary': '#32B734',
         'secondary-contrast': '#176218',
         'neutral' : '#EEEEEC',
+        'neutral-dark': '#C1C1C1',
         'danger' : '#D27364',
         'twitter' : '#199af0',
         'discord' : '#5865F2',
