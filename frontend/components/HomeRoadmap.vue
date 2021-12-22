@@ -54,13 +54,13 @@
                     <div class="m-auto space-y-10 lg:space-y-20">
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Regulary airdrop.</p>
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- New website version for LuckyBook with more details about our goals.</p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Collaborations and sponsors for huge benefits to holders !</p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-44">- Collaborations and sponsors for huge benefits to holders !</p>
                     </div>
                 </div>
                 <div class="flex justify-center space-x-4 pb-5 md:text-lg lg:text-xl xl:text-2xl page-footer">
-                    <img width="200" height="200" @click="prevPage(visiblePage)" class="w-6 md:w-7 xl:md-10 cursor-pointer" src="~/assets/images/back-arrow.svg" alt="go to prev page icon"/>
+                    <img width="200" height="200" @click="prevPage(visiblePage)" class="w-6 md:w-7 xl:md-10 cursor-pointer hover:scale-125 duration-300" src="~/assets/images/back-arrow.svg" alt="go to prev page icon"/>
                     <p class="text-lg xl:text-2xl mt-1 px-2">{{visiblePage}}/{{nbrPages}}</p>
-                    <img width="200" height="200" @click="nextPage(visiblePage)" class="w-6 md:w-7 xl:md-10 cursor-pointer" src="~/assets/images/front-arrow.svg" alt="go to next page icon"/>
+                    <img width="200" height="200" @click="nextPage(visiblePage)" class="w-6 md:w-7 xl:md-10 cursor-pointer hover:scale-125 duration-300" src="~/assets/images/front-arrow.svg" alt="go to next page icon"/>
                 </div>
             </div>
         </div>
