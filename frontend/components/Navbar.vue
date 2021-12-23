@@ -16,7 +16,7 @@
     </NuxtLink>
         <img @click="visibleMobileMenu ? null : visibleMobileMenu = true, animation('openMenu')" id="mobileMenuIcon" class="w-10" width="100" height="100" src="~/assets/images/menuMobileIcon.svg" alt="Drop menu icon">
     </div>
-    <div id="mobileMenu" class="bg-primary fixed w-full h-full overflow-hidden z-30" :class="visibleMobileMenu ? 'block' : 'hidden'">
+    <div id="mobileMenu" class="bg-primary fixed w-full h-full overflow-hidden z-30 md:hidden" :class="visibleMobileMenu ? 'block' : 'hidden'">
         <img @click="visibleMobileMenu = false, animation('closeMenu')" class="absolute left-3/4 mt-10 w-10" width="100" height="100" src="~/assets/images/crossIcon.svg" alt="Cross close menu Icon">
         <div class="flex h-screen">
             <ul class="text-4xl text-center m-auto space-y-14 text-white">
