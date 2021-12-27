@@ -58,7 +58,6 @@ export default {
         animation(payload) {
             switch (payload) {
                 case 'openMenu':
-                    let tl = gsap.timeline();
                     gsap.fromTo("#mobileMenuIcon", { y: '0vh' }, {duration: 1, y: '-10vh' })
                     gsap.fromTo("#mobileMenu", { x: '-100vh'}, {x: '0vh'})
                     break;
