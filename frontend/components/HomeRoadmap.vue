@@ -51,7 +51,7 @@
                 </div>
                 <h4 :class="[visiblePage === 5 ? 'block' : 'hidden']" class="text-xl text-center pt-10 lg:pt-20 font-bold md:text-2xl lg:text-4xl page-title-5">Chapitre IV - More to come</h4>
                 <div class="flex-grow flex flex-col justify-center items-center page-content-5" :class="[visiblePage === 5 ? 'block fade-in' : 'hidden']">
-                    <div class="m-auto space-y-10 lg:space-y-20">
+                    <div class="m-auto space-y-10">
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Regulary airdrop.</p>
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- New website version for LuckyBook with more details about our goals.</p>
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-44">- Collaborations and sponsors for huge benefits to holders !</p>

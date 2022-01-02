@@ -6,10 +6,10 @@
     "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.0",
+    "autoprefixer": "^10.4.1",
     "nuxt3": "latest",
-    "postcss": "^8.4.4",
-    "tailwindcss": "^2.2.19"
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.8"
   },
   "dependencies": {
     "gsap": "^3.9.0"
