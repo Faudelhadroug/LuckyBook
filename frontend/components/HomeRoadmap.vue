@@ -55,8 +55,8 @@
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- Regulary airdrop.</p>
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-48">- New website version for LuckyBook with more details about our goals.</p>
                         <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-44">- Collaborations and sponsors for huge benefits to holders !</p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-44">- Integration  of LuckyBook in a marketplace</p>
-                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-44">- Calculator rarity for LuckyBook</p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-44">- Integration  of LuckyBook in a marketplace.</p>
+                        <p class="text-center mx-6 lg:text-lg xl:text-2xl lg:mx-20 xl:mx-32 2xl:mx-44">- Calculator rarity for LuckyBook.</p>
                     </div>
                 </div>
                 <div class="flex justify-center space-x-4 pb-5 md:text-lg lg:text-xl xl:text-2xl page-footer">
