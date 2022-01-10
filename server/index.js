@@ -1,9 +1,11 @@
 const express = require('express')
+const fs = require("fs");
 const app = express()
 const port = 3000
-const { Traits } = require('./rarity.json')
+const { traits } = require('./rarityInfo.json')
 
-const collections = require('./json/_metadata.json');
+const collections = require('./_metadata.json');
+const cid = ""
 let rarityArr = [];
 for (collection of collections) {
     let rarityPoint = 0
@@ -59,23 +61,22 @@ for (collection of collections) {
                 rarityPoint += 88;
                 break;
         }
-        for(Trait of Traits) {
-            for(item of Trait.Rarity) {
-
-                switch(Trait.Trait_type){
-                    case "Background":
-                        if(attribute.value == item.trait) rarityPoint -= `0.${item.occurrence}`
-                        break;
-                    case "Logo":
-                        if(attribute.value == item.trait) rarityPoint -= `0.${item.occurrence}`
-                        break;
-                    case "Book":
-                        if(attribute.value == item.trait) rarityPoint -= `0.${item.occurrence}`
-                        break;
-                    case "Clover":
-                        if(attribute.value == item.trait) rarityPoint -= `0.${item.occurrence}`
-                        break;
-                }
+        for(trait of traits) {
+            for(item of trait.rarity) {
+                // switch(trait.traitType){
+                //     case "Background":
+                //         if(attribute.value == item.trait) rarityPoint -= `0.${item.occurrence}`
+                //         break;
+                //     case "Logo":
+                //         if(attribute.value == item.trait) rarityPoint -= `0.${item.occurrence}`
+                //         break;
+                //     case "Book":
+                //         if(attribute.value == item.trait) rarityPoint -= `0.${item.occurrence}`
+                //         break;
+                //     case "Clover":
+                //         if(attribute.value == item.trait) rarityPoint -= `0.${item.occurrence}`
+                //         break;
+                // }
 
             }
         }
@@ -84,6 +85,7 @@ for (collection of collections) {
     let tempObj = {
         name: collection.name,
         rarityPoint: rarityPoint.toFixed(2),
+        link: `https://ipfs.io/ipfs${cid}/${collection.edition}.json`
     }
     rarityArr.push(tempObj)
 }
@@ -91,8 +93,17 @@ for (collection of collections) {
 let score = rarityArr.sort((a, b) => {
     return a.rarityPoint - b.rarityPoint;
 }); 
-console.log(score.reverse());
-
+console.log();
+score = score.reverse()
+score.forEach((elem, x) => elem.ranking = `${x+1}/8888`)
+const save = () => {
+    fs.writeFile("./rarityRanking.json",  JSON.stringify(score), (err) => {
+        // Error checking
+        if (err) throw err;
+        console.log("Json created with rarity info");
+      });
+}
+save();
 app.get('/', (req, res) => {
 
 })
