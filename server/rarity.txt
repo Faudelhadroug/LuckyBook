@@ -1,0 +1,670 @@
+Trait type: Ubackground
+{
+  trait: 'Unique_multicolorNebula',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Glow
+{
+  trait: 'Epic_glowEffect1',
+  weight: '20',
+  occurrence: '577 in 8888 editions (6.49 %)'
+}
+{
+  trait: 'Epic_glowEffect2',
+  weight: '20',
+  occurrence: '610 in 8888 editions (6.86 %)'
+}
+{
+  trait: 'Epic_glowEffect3',
+  weight: '20',
+  occurrence: '588 in 8888 editions (6.62 %)'
+}
+{
+  trait: 'Epic_glowEffect4',
+  weight: '20',
+  occurrence: '521 in 8888 editions (5.86 %)'
+}
+{
+  trait: 'Epic_glowEffect5',
+  weight: '20',
+  occurrence: '576 in 8888 editions (6.48 %)'
+}
+{
+  trait: 'Epic_glowEffect6',
+  weight: '20',
+  occurrence: '588 in 8888 editions (6.62 %)'
+}
+
+Trait type: Aura
+{
+  trait: 'Epic_blue',
+  weight: '20',
+  occurrence: '739 in 8888 editions (8.31 %)'
+}
+{
+  trait: 'Epic_green',
+  weight: '20',
+  occurrence: '679 in 8888 editions (7.64 %)'
+}
+{
+  trait: 'Epic_purple',
+  weight: '20',
+  occurrence: '664 in 8888 editions (7.47 %)'
+}
+{
+  trait: 'Epic_red',
+  weight: '20',
+  occurrence: '709 in 8888 editions (7.98 %)'
+}
+{
+  trait: 'Epic_yellow',
+  weight: '20',
+  occurrence: '678 in 8888 editions (7.63 %)'
+}
+
+Trait type: Book
+{
+  trait: 'Common_blue',
+  weight: '30',
+  occurrence: '997 in 8888 editions (11.22 %)'
+}
+{
+  trait: 'Common_green',
+  weight: '30',
+  occurrence: '963 in 8888 editions (10.83 %)'
+}
+{
+  trait: 'Common_purple',
+  weight: '30',
+  occurrence: '972 in 8888 editions (10.94 %)'
+}
+{
+  trait: 'Common_red',
+  weight: '30',
+  occurrence: '1038 in 8888 editions (11.68 %)'
+}
+{
+  trait: 'Common_yellow',
+  weight: '30',
+  occurrence: '1053 in 8888 editions (11.85 %)'
+}
+{
+  trait: 'Legendary_blue',
+  weight: '3',
+  occurrence: '96 in 8888 editions (1.08 %)'
+}
+{
+  trait: 'Legendary_green',
+  weight: '3',
+  occurrence: '108 in 8888 editions (1.22 %)'
+}
+{
+  trait: 'Legendary_purple',
+  weight: '3',
+  occurrence: '60 in 8888 editions (0.68 %)'
+}
+{
+  trait: 'Legendary_red',
+  weight: '3',
+  occurrence: '123 in 8888 editions (1.38 %)'
+}
+{
+  trait: 'Legendary_yellow',
+  weight: '3',
+  occurrence: '64 in 8888 editions (0.72 %)'
+}
+{
+  trait: 'SuperRare_blue',
+  weight: '20',
+  occurrence: '701 in 8888 editions (7.89 %)'
+}
+{
+  trait: 'SuperRare_green',
+  weight: '20',
+  occurrence: '661 in 8888 editions (7.44 %)'
+}
+{
+  trait: 'SuperRare_purple',
+  weight: '20',
+  occurrence: '677 in 8888 editions (7.62 %)'
+}
+{
+  trait: 'SuperRare_red',
+  weight: '20',
+  occurrence: '696 in 8888 editions (7.83 %)'
+}
+{
+  trait: 'SuperRare_yellow',
+  weight: '20',
+  occurrence: '678 in 8888 editions (7.63 %)'
+}
+
+Trait type: Bookmark
+{
+  trait: 'Common_JeanLuck',
+  weight: '30',
+  occurrence: '592 in 8888 editions (6.66 %)'
+}
+{
+  trait: 'Epic_dollar',
+  weight: '6',
+  occurrence: '125 in 8888 editions (1.41 %)'
+}
+{
+  trait: 'Epic_pacman',
+  weight: '6',
+  occurrence: '107 in 8888 editions (1.20 %)'
+}
+{
+  trait: 'Epic_tetris',
+  weight: '6',
+  occurrence: '126 in 8888 editions (1.42 %)'
+}
+{
+  trait: 'Legendary_hunterCard',
+  weight: '3',
+  occurrence: '48 in 8888 editions (0.54 %)'
+}
+{
+  trait: 'Legendary_luckyAS',
+  weight: '3',
+  occurrence: '67 in 8888 editions (0.75 %)'
+}
+{
+  trait: 'SuperRare_blueCamo',
+  weight: '20',
+  occurrence: '382 in 8888 editions (4.30 %)'
+}
+{
+  trait: 'SuperRare_greenCamo',
+  weight: '20',
+  occurrence: '432 in 8888 editions (4.86 %)'
+}
+{
+  trait: 'SuperRare_pinkCamo',
+  weight: '20',
+  occurrence: '356 in 8888 editions (4.01 %)'
+}
+{
+  trait: 'SuperRare_redCamo',
+  weight: '20',
+  occurrence: '461 in 8888 editions (5.19 %)'
+}
+{
+  trait: 'SuperRare_yellowCamo',
+  weight: '20',
+  occurrence: '413 in 8888 editions (4.65 %)'
+}
+
+Trait type: Clover
+{
+  trait: 'Common_3leafs',
+  weight: '30',
+  occurrence: '2302 in 8888 editions (25.90 %)'
+}
+{
+  trait: 'Epic_4leafs',
+  weight: '6',
+  occurrence: '485 in 8888 editions (5.46 %)'
+}
+{
+  trait: 'HyperRare_3leafs',
+  weight: '16',
+  occurrence: '1388 in 8888 editions (15.62 %)'
+}
+{
+  trait: 'Legendary_4leafs',
+  weight: '3',
+  occurrence: '244 in 8888 editions (2.75 %)'
+}
+{
+  trait: 'Mythic_4leafs',
+  weight: '1',
+  occurrence: '99 in 8888 editions (1.11 %)'
+}
+{
+  trait: 'Rare_3leafs',
+  weight: '25',
+  occurrence: '1992 in 8888 editions (22.41 %)'
+}
+{
+  trait: 'SuperRare_3leafs',
+  weight: '20',
+  occurrence: '1597 in 8888 editions (17.97 %)'
+}
+{
+  trait: 'UltraRare_4leafs',
+  weight: '10',
+  occurrence: '773 in 8888 editions (8.70 %)'
+}
+
+Trait type: Logo
+{
+  trait: 'Common_Audius',
+  weight: '30',
+  occurrence: '614 in 8888 editions (6.91 %)'
+}
+{
+  trait: 'Common_Beefy',
+  weight: '30',
+  occurrence: '568 in 8888 editions (6.39 %)'
+}
+{
+  trait: 'Common_Holo',
+  weight: '30',
+  occurrence: '572 in 8888 editions (6.44 %)'
+}
+{
+  trait: 'Common_Slp',
+  weight: '30',
+  occurrence: '580 in 8888 editions (6.53 %)'
+}
+{
+  trait: 'Common_Sushiswap',
+  weight: '30',
+  occurrence: '581 in 8888 editions (6.54 %)'
+}
+{
+  trait: 'Common_Ultra',
+  weight: '30',
+  occurrence: '573 in 8888 editions (6.45 %)'
+}
+{
+  trait: 'Epic_Avalanch',
+  weight: '6',
+  occurrence: '111 in 8888 editions (1.25 %)'
+}
+{
+  trait: 'Epic_Bnb',
+  weight: '6',
+  occurrence: '134 in 8888 editions (1.51 %)'
+}
+{
+  trait: 'Epic_Solana',
+  weight: '6',
+  occurrence: '94 in 8888 editions (1.06 %)'
+}
+{
+  trait: 'Epic_Terra',
+  weight: '6',
+  occurrence: '104 in 8888 editions (1.17 %)'
+}
+{
+  trait: 'HyperRare_Algorand',
+  weight: '16',
+  occurrence: '307 in 8888 editions (3.45 %)'
+}
+{
+  trait: 'HyperRare_Litecoin',
+  weight: '16',
+  occurrence: '294 in 8888 editions (3.31 %)'
+}
+{
+  trait: 'HyperRare_Sandbox',
+  weight: '16',
+  occurrence: '333 in 8888 editions (3.75 %)'
+}
+{
+  trait: 'Legendary_Doge',
+  weight: '3',
+  occurrence: '60 in 8888 editions (0.68 %)'
+}
+{
+  trait: 'Legendary_Shiba',
+  weight: '3',
+  occurrence: '58 in 8888 editions (0.65 %)'
+}
+{
+  trait: 'Mythic_Bitcoin',
+  weight: '1',
+  occurrence: '24 in 8888 editions (0.27 %)'
+}
+{
+  trait: 'Mythic_Ethereum',
+  weight: '2',
+  occurrence: '32 in 8888 editions (0.36 %)'
+}
+{
+  trait: 'Mythic_Hathor',
+  weight: '1',
+  occurrence: '14 in 8888 editions (0.16 %)'
+}
+{
+  trait: 'Rare_Harmony',
+  weight: '25',
+  occurrence: '495 in 8888 editions (5.57 %)'
+}
+{
+  trait: 'Rare_Icp',
+  weight: '25',
+  occurrence: '456 in 8888 editions (5.13 %)'
+}
+{
+  trait: 'Rare_Kucoin',
+  weight: '25',
+  occurrence: '510 in 8888 editions (5.74 %)'
+}
+{
+  trait: 'Rare_Pancakeswap',
+  weight: '25',
+  occurrence: '514 in 8888 editions (5.78 %)'
+}
+{
+  trait: 'SuperRare_Elrond',
+  weight: '20',
+  occurrence: '372 in 8888 editions (4.19 %)'
+}
+{
+  trait: 'SuperRare_Ftx',
+  weight: '20',
+  occurrence: '404 in 8888 editions (4.55 %)'
+}
+{
+  trait: 'SuperRare_Theta',
+  weight: '20',
+  occurrence: '422 in 8888 editions (4.75 %)'
+}
+{
+  trait: 'UltraRare_Chainlink',
+  weight: '10',
+  occurrence: '216 in 8888 editions (2.43 %)'
+}
+{
+  trait: 'UltraRare_Polygon',
+  weight: '10',
+  occurrence: '221 in 8888 editions (2.49 %)'
+}
+{
+  trait: 'UltraRare_Uniswap',
+  weight: '10',
+  occurrence: '200 in 8888 editions (2.25 %)'
+}
+
+Trait type: Border
+{
+  trait: 'Legendary_blue',
+  weight: '3',
+  occurrence: '40 in 8888 editions (0.45 %)'
+}
+{
+  trait: 'Legendary_pink',
+  weight: '3',
+  occurrence: '41 in 8888 editions (0.46 %)'
+}
+{
+  trait: 'Legendary_texture',
+  weight: '3',
+  occurrence: '20 in 8888 editions (0.23 %)'
+}
+{
+  trait: 'Mythic_bug',
+  weight: '1',
+  occurrence: '16 in 8888 editions (0.18 %)'
+}
+{
+  trait: 'Mythic_cube',
+  weight: '1',
+  occurrence: '8 in 8888 editions (0.09 %)'
+}
+
+Trait type: Background
+{
+  trait: 'Common_blue',
+  weight: '30',
+  occurrence: '596 in 8888 editions (6.71 %)'
+}
+{
+  trait: 'Common_green',
+  weight: '30',
+  occurrence: '598 in 8888 editions (6.73 %)'
+}
+{
+  trait: 'Common_purple',
+  weight: '30',
+  occurrence: '609 in 8888 editions (6.85 %)'
+}
+{
+  trait: 'Common_red',
+  weight: '30',
+  occurrence: '640 in 8888 editions (7.20 %)'
+}
+{
+  trait: 'Common_yellow',
+  weight: '30',
+  occurrence: '581 in 8888 editions (6.54 %)'
+}
+{
+  trait: 'Epic_cream',
+  weight: '6',
+  occurrence: '117 in 8888 editions (1.32 %)'
+}
+{
+  trait: 'Epic_green',
+  weight: '6',
+  occurrence: '138 in 8888 editions (1.55 %)'
+}
+{
+  trait: 'Epic_pink',
+  weight: '6',
+  occurrence: '153 in 8888 editions (1.72 %)'
+}
+{
+  trait: 'HyperRare_green',
+  weight: '16',
+  occurrence: '335 in 8888 editions (3.77 %)'
+}
+{
+  trait: 'Legendary_cursed',
+  weight: '3',
+  occurrence: '64 in 8888 editions (0.72 %)'
+}
+{
+  trait: 'Legendary_glitch',
+  weight: '3',
+  occurrence: '69 in 8888 editions (0.78 %)'
+}
+{
+  trait: 'Legendary_hope',
+  weight: '3',
+  occurrence: '46 in 8888 editions (0.52 %)'
+}
+{
+  trait: 'Mythic_blueNebula',
+  weight: '1',
+  occurrence: '16 in 8888 editions (0.18 %)'
+}
+{
+  trait: 'Mythic_greenNebula',
+  weight: '1',
+  occurrence: '25 in 8888 editions (0.28 %)'
+}
+{
+  trait: 'Mythic_purpleNebula',
+  weight: '1',
+  occurrence: '21 in 8888 editions (0.24 %)'
+}
+{
+  trait: 'Mythic_redNebula',
+  weight: '1',
+  occurrence: '12 in 8888 editions (0.14 %)'
+}
+{
+  trait: 'Mythic_yellowNebula',
+  weight: '1',
+  occurrence: '12 in 8888 editions (0.14 %)'
+}
+{
+  trait: 'Rare_beige',
+  weight: '25',
+  occurrence: '459 in 8888 editions (5.16 %)'
+}
+{
+  trait: 'Rare_black',
+  weight: '25',
+  occurrence: '496 in 8888 editions (5.58 %)'
+}
+{
+  trait: 'Rare_blue',
+  weight: '25',
+  occurrence: '515 in 8888 editions (5.79 %)'
+}
+{
+  trait: 'Rare_green',
+  weight: '25',
+  occurrence: '498 in 8888 editions (5.60 %)'
+}
+{
+  trait: 'Rare_grey',
+  weight: '25',
+  occurrence: '491 in 8888 editions (5.52 %)'
+}
+{
+  trait: 'Rare_orange',
+  weight: '25',
+  occurrence: '513 in 8888 editions (5.77 %)'
+}
+{
+  trait: 'SuperRare_purple',
+  weight: '20',
+  occurrence: '451 in 8888 editions (5.07 %)'
+}
+{
+  trait: 'SuperRare_uncolored',
+  weight: '20',
+  occurrence: '426 in 8888 editions (4.79 %)'
+}
+{
+  trait: 'SuperRare_yellow',
+  weight: '20',
+  occurrence: '396 in 8888 editions (4.46 %)'
+}
+{
+  trait: 'UltraRare_bubblegum',
+  weight: '10',
+  occurrence: '215 in 8888 editions (2.42 %)'
+}
+{
+  trait: 'UltraRare_explosion',
+  weight: '10',
+  occurrence: '186 in 8888 editions (2.09 %)'
+}
+{
+  trait: 'UltraRare_fire',
+  weight: '10',
+  occurrence: '209 in 8888 editions (2.35 %)'
+}
+
+Trait type: Uaura
+{
+  trait: 'Unique_multicolor',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Ubook
+{
+  trait: 'Unique_multicolor',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Ulogo
+{
+  trait: 'Unique_5leafs',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Uclover
+{
+  trait: 'Unique_uncommon3Leafs',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Uclover2
+{
+  trait: 'Unique_rare3Leafs',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Uclover3
+{
+  trait: 'Unique_superRare3Leafs',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Uclover4
+{
+  trait: 'Unique_hyperRare3Leafs',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Uclover5
+{
+  trait: 'Unique_ultraRare4Leafs',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Uclover6
+{
+  trait: 'Unique_epic4Leafs',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Uclover7
+{
+  trait: 'Unique_legendary4Leafs',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Uclover8
+{
+  trait: 'Unique_mythic4Leafs',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Uborder
+{
+  trait: 'Unique_multicolor',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
+Trait type: Slogo
+{
+  trait: 'Special_Kuroro',
+  weight: '1',
+  occurrence: '8 in 8888 editions (0.09 %)'
+}
+
+Trait type: Slogo2
+{
+  trait: 'Special_DeathNote',
+  weight: '1',
+  occurrence: '8 in 8888 editions (0.09 %)'
+}
+
+Trait type: Slogo3
+{
+  trait: 'Special_Kakashi',
+  weight: '1',
+  occurrence: '8 in 8888 editions (0.09 %)'
+}
+
+Trait type: Ubookmark
+{
+  trait: 'Unique_JeanLuckMulticolor',
+  weight: '1',
+  occurrence: '1 in 8888 editions (0.01 %)'
+}
+
