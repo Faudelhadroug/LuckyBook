@@ -1,0 +1,187 @@
+[
+    {
+      "name": "LuckyBook #5195",
+      "description": "A collection of 8888 generative unique NFT",
+      "image": "ipfs://NewUriToReplace/5195.png",
+      "edition": 5195,
+      "attributes": [
+        {
+          "type": "Ubackground",
+          "value": "Unique_multicolorNebula"
+        },
+        {
+          "type": "Glow",
+          "value": "Epic_glowEffect2"
+        },
+        {
+          "type": "Aura",
+          "value": "Epic_yellow"
+        },
+        {
+          "type": "Book",
+          "value": "Legendary_green"
+        },
+        {
+          "type": "Bookmark",
+          "value": "SuperRare_pinkCamo"
+        },
+        {
+          "type": "Clover",
+          "value": "UltraRare_4leafs"
+        },
+        {
+          "type": "Logo",
+          "value": "SuperRare_Elrond"
+        },
+        {
+          "type": "Border",
+          "value": "Legendary_blue"
+        }
+      ]
+    },
+    {
+        "name": "LuckyBook #8438",
+        "description": "A collection of 8888 generative unique NFT",
+        "image": "ipfs://NewUriToReplace/8438.png",
+        "edition": 8438,
+        "attributes": [
+          {
+            "type": "Background",
+            "value": "HyperRare_green"
+          },
+          {
+            "type": "Glow",
+            "value": "Epic_glowEffect2"
+          },
+          {
+            "type": "Book",
+            "value": "Common_green"
+          },
+          {
+            "type": "Clover",
+            "value": "Common_3leafs"
+          },
+          {
+            "type": "Logo",
+            "value": "Common_Slp"
+          }
+        ]
+      },
+      {
+        "name": "LuckyBook #5631",
+        "description": "A collection of 8888 generative unique NFT",
+        "image": "ipfs://NewUriToReplace/5631.png",
+        "edition": 5631,
+        "attributes": [
+          {
+            "type": "Background",
+            "value": "Rare_green"
+          },
+          {
+            "type": "Glow",
+            "value": "Epic_glowEffect1"
+          },
+          {
+            "type": "Book",
+            "value": "SuperRare_green"
+          },
+          {
+            "type": "Clover",
+            "value": "UltraRare_4leafs"
+          },
+          {
+            "type": "Logo",
+            "value": "Common_Ultra"
+          }
+        ]
+      },
+      {
+        "name": "LuckyBook #2689",
+        "description": "A collection of 8888 generative unique NFT",
+        "image": "ipfs://NewUriToReplace/2689.png",
+        "edition": 2689,
+        "attributes": [
+          {
+            "type": "Background",
+            "value": "SuperRare_yellow"
+          },
+          {
+            "type": "Book",
+            "value": "SuperRare_yellow"
+          },
+          {
+            "type": "Clover",
+            "value": "SuperRare_3leafs"
+          },
+          {
+            "type": "Logo",
+            "value": "Common_Beefy"
+          }
+        ]
+      },
+    {
+      "name": "LuckyBook #6469",
+      "description": "A collection of 8888 generative unique NFT",
+      "image": "ipfs://NewUriToReplace/6469.png",
+      "edition": 6469,
+      "attributes": [
+        {
+          "type": "Background",
+          "value": "Common_green"
+        },
+        {
+          "type": "Book",
+          "value": "Common_green"
+        },
+        {
+          "type": "Bookmark",
+          "value": "SuperRare_yellowCamo"
+        },
+        {
+          "type": "Clover",
+          "value": "SuperRare_3leafs"
+        },
+        {
+          "type": "Ulogo",
+          "value": "Unique_5leafs"
+        },
+        {
+          "type": "Border",
+          "value": "Legendary_blue"
+        }
+      ]
+    },
+    {
+      "name": "LuckyBook #1785",
+      "description": "A collection of 8888 generative unique NFT",
+      "image": "ipfs://NewUriToReplace/1785.png",
+      "edition": 1785,
+      "attributes": [
+        {
+          "type": "Background",
+          "value": "Rare_orange"
+        },
+        {
+          "type": "Glow",
+          "value": "Epic_glowEffect2"
+        },
+        {
+          "type": "Aura",
+          "value": "Epic_yellow"
+        },
+        {
+          "type": "Book",
+          "value": "SuperRare_red"
+        },
+        {
+          "type": "Uclover",
+          "value": "Unique_uncommon3Leafs"
+        },
+        {
+          "type": "Logo",
+          "value": "Common_Slp"
+        }
+      ]
+    }
+]
+   
